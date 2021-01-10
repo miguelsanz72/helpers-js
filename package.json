@@ -1,6 +1,6 @@
 {
   "name": "helpers-js-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helpers various for use in projects javascript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,8 +29,8 @@
     "url": "https://github.com/miguelsanz72/helpers-js/issues"
   },
   "homepage": "https://github.com/miguelsanz72/helpers-js#readme",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+  "devDependencies": {
+    "@types/lodash": "^4.14.167",
+    "lodash": "^4.17.20"
   }
-  
 }

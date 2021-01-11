@@ -1,11 +1,10 @@
-import _ from 'lodash';
+import _ from "lodash";
 
-const sumArrPipe = (value: any, arg: string) =>  {
-
-    if (value !== undefined && value !== null) {
-        return _.sumBy(value, arg);
-    }
-    return value;
-}
+const sumArrPipe = (value: any[], arg: string) => {
+  if (value !== undefined && value !== null) {
+    return _.sumBy(value, arg);
+  }
+  return value;
+};
 
 export default sumArrPipe;
